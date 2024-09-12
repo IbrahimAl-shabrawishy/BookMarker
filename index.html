@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./CSS/all.min.css"/>
+<link rel="stylesheet" href="./CSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./CSS/style.css"/>
+</head>
+<body>
+    
+<div class="bookMarker vh-100">
+  
+<div class="container  ">
+    <div class="title py-5 ">
+      
+    <div class="title-heading ">
+        <h1 class="text-center fw-medium ">Bookmarker</h1>
+     
+   
+        <div class="layer-title"></div>
+    </div>
+       
+    </div>
+
+<div class="border border-black"></div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="second-title d-flex flex-wrap justify-content-center flex-row align-items-center gap-2 py-3">
+            <i class="fa-solid fs-25 fa-bookmark"></i>
+            <h2 class="fw-medium fs-25">Bookmark your favorite sites</h2>
+            <i class="fa-solid fs-25 fa-bookmark"></i>
+        </div>
+<div class="py-5">
+    
+        <div class="mb-3">
+            <i class="fa-solid fa-book-bookmark text-dark"></i>
+            <label for="nameInput" class="form-label fw-semibold">Site Name</label>
+          <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Bookmark Name">
+          
+        </div>
+        <div class="mb-3">
+            <i class="fa-solid fa-link text-dark"></i>
+          <label for="urlInput" class="form-label fw-semibold">Site URL</label>
+          <input type="url" class="form-control" id="urlInput" placeholder="Website URL">
+        </div>
+       
+       <div class=" d-flex flex-wrap justify-content-center align-items-center py-3 ">
+        <button type="submit" class="btn btn-danger w-15" onclick="createBookMarker()" id="submit">Submit</button>
+       </div>
+     
+      <div class="border border-black"></div>
+</div>
+
+
+
+
+
+
+
+
+<div class="py-3">
+    
+<table class="w-100 ">
+    <thead class="bg-white text-center py-5 ">
+        <tr>
+            <th class="p-2">Index</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+        </tr>
+        
+    </thead>
+
+<tbody id="tbody" class="text-center bg-white border-top">
+   
+   
+
+
+
+
+</tbody>
+
+
+
+
+
+
+
+
+
+</table>
+
+
+</div>
+
+
+
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<script src="./JS/bootstrap.bundle.min.js"></script>
+
+
+    <script src="./JS/index.js"></script>
+
+</body>
+</html>
