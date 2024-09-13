@@ -52,7 +52,7 @@ function displayBookMarker() {
     for (var i = 0; i < addBookMarker.length; i++) {
         content += `
             <tr>
-                <td class="fw-bold">${i+1}</td>
+                <td class="fw-bold">${i+2}</td>
                 <td class="fw-bold text-capitalize">${addBookMarker[i].nameInput}</td>
                <td class="py-2">
     <a onclick="visitBtn('${addBookMarker[i].urlInput}')" href="javascript:void(0);"  class="btn btn-warning text-white text-capitalize" 
